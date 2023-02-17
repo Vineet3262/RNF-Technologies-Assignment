@@ -1,0 +1,17 @@
+.pera-head{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    margin-top: 50px;
+    text-align: center;
+}
+.pera ~ p
+{
+    text-align: justify;
+}
+.pera{
+    text-align: left;
+}
+.first-image
+{   
+    width: 370px;
+}

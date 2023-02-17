@@ -1,0 +1,41 @@
+.newsLetter {
+    background: #f23a27;
+    display: flex;
+    justify-content: space-around;
+
+}
+.news{
+    width: 10%;
+}
+.searchEmail{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.heading{
+    margin-bottom: 12px;
+    color: white;
+}
+
+.searchBox{
+    margin-bottom: 10px;
+    position: relative;
+    width: 400px;
+}
+
+.submitButton {
+    right: -69px;
+    background-color: black;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    height: 35px;
+    color: white;
+}
+
+.inputSearch{
+    opacity: 5px;
+}
+
+.imgNews {
+    width: 30%;
+}

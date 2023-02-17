@@ -1,13 +1,210 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media screen and (max-width: 480px){
+  .attend-images {
+    grid-template-columns: repeat(1, 1fr) !important;
+    padding: 10px 30px;
+  }
+
+  .company-head {
+    margin-top: 90% !important;
+  }
+
+  .companies-images,
+  .companies-images2,
+  .companies-images3,
+  .companies-images4,
+  .companies-images5,
+  .companies-images6 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .pera-head,
+  .attend_image_div {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .trailer_class {
+    width: 450px;
+  }
+
+  .menu_btn,
+  .address {
+    visibility: hidden;
+  }
+
+  .logo_div img {
+    width: 170px !important;
+  }
+
+  .text_div {
+    grid-template-columns: repeat(1, 1fr) !important;
+    margin-top: 0 !important;
+  }
+
+  .text_div .text {
+    padding-top: 0 !important;
+  }
+
+  .text_div .box {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .text_div .box .box1 {
+    margin-bottom: 2rem;
+  }
+
+  .form_div {
+    margin: 0 auto;
+    margin: 2rem auto;
+  }
+
+  .conference-2 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .exibitors-img {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .exibitors-img-1 {
+    margin-left: 0 !important;
+  }
+
+  .heading h1 {
+    font-size: 2rem !important;
+  }
+
+  .searchBox {
+    width: 260px;
+  }
+
+  .imgNews {
+    padding-top: 10px;
+    overflow: hidden;
+  }
+
+  .imgNews img {
+    height: 200px;
+  }
+
+  .searchBox {
+    width: 300px !important;
+  }
+
+  .sponsers-div {
+    padding-left: 30px;
+    margin-left: 0 !important;
+  }
+
+  .msg {
+    display: none;
+  }
+
+  .footerContainer {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .footerCopyright {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center !important;
+    height: auto !important;
+  }
+
+  .footerCopyright p {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  .bookTicket {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .MsgBookTicket {
+    margin-right: 80px !important;
+  }
+
+  .bookTicketBtn {
+    margin-left: 150px !important;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (min-width: 768px) and (max-width:1200px) {
+  .text_div {
+    grid-template-columns: repeat(1, 1fr) !important;
+
+  }
+
+  .form_div {
+    margin-left: 130px;
+    margin-top: 40px;
+  }
+
+  .offerTiming {
+    gap: 5px
+  }
+
+  .first-image {
+    width: 450px !important;
+    margin-top: 80px;
+  }
+
+  .attend-images {
+    grid-template-columns: repeat(3, 1fr) !important;
+    text-align: center !important;
+  }
+
+  .attend_image_div {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .company-head {
+    margin-top: 35% !important;
+  }
+
+
+  .companies-images,
+  .companies-images2,
+  .companies-images3,
+  .companies-images4,
+  .companies-images5,
+  .companies-images6 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .conference-2{
+   width: 90%;
+  }
+
+  .footerContainer
+  {
+    grid-template-columns: repeat(3, 1fr) !important;
+    
+  }
+  .searchEmail
+  {
+    margin-right: 100px;
+    margin-top: 0px !important;
+    width: 90% !important;
+  }
+  .submitButton
+  {
+    right: -63px !important;
+
+  }
+  .exibitors-img-1
+  {
+    margin-left: 0px !important;
+  }
+  .address
+  {
+    display: none !important;;
+  }
+
+  .MsgBookTicket {
+    margin-left: 20px !important;
+  }
+
+  .imgNews img{
+    height: 200px;
+  }
 }

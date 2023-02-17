@@ -1,0 +1,22 @@
+.attend_image_div {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.attend-head-pera {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.attend-first-pera {
+    text-align: justify;
+    width: 80%;
+    margin-left: 30px;
+
+}
+
+.attend-second-pera {
+    color: red;
+}

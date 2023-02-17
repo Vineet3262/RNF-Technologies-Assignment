@@ -1,0 +1,37 @@
+.attend-head
+{
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+}
+.attend-header
+{
+    background-color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+.attend-images
+{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    margin-top: 50px;   
+    gap : 70px;
+    
+}
+.text-heading
+{
+    color: white;
+    margin-top: 30px;
+    display: flex;;
+    justify-content: center;
+   
+}
+.text-heading ~ p 
+{
+    color: white;
+    margin-top: 30px;
+}
+.img_div
+{
+    height: 100px;
+}

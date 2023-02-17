@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+    line-height: 15px;
+}
+
+h5{
+    color: white;;
+}
+
+.footer {
+    font-family: Arial Rounded MT;
+}
+
+.footerHeader {
+    background: #1a1a1a;
+    height: 25%;
+    padding: 5px 0px;
+}
+
+.footerLogo {
+    height: 45px;
+    margin-Left: 80px;
+}
+
+.footerContainer {
+    background: #000000;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 40px;
+}
+
+.footerCopyright {
+    background: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.copyRight, .term{
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+    color: gray;;
+}
