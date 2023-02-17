@@ -18,7 +18,6 @@ export default function Header() {
                                 10th - 12th July, 2023</p>
                         </div>
                     </div>
-                    
                     <div className='menu'>
                         <div className='menu_btn'>
                             <button>Partner with us</button>
